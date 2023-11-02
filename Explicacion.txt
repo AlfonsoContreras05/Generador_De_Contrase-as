@@ -1,0 +1,57 @@
+Scripts faciles para los primeros pasos 
+
+En esta ocaciones crearemos un generador de contraseñas aleatorias
+
+paso a paso detallado
+
+Importar módulos:
+
+string: Un módulo que contiene secuencias de los caracteres ASCII comunes.
+
+random: Un módulo que proporciona funciones para generar números aleatorios, y que también podemos usar para seleccionar elementos aleatorios de una secuencia.
+
+
+luego de definir las importaciones podemos generar las funciones :
+Definición de la función generar_contrasena:
+Esta función toma cuatro parámetros:
+
+longitud: La longitud deseada de la contraseña.
+usar_letras: Un booleano para decidir si incluir letras.
+usar_numeros: Un booleano para decidir si incluir números.
+usar_simbolos: Un booleano para decidir si incluir símbolos.
+
+siempre usaremos nombres faciles de relacionar
+
+aemas hemos construido la cadena de caracteres permitios y la verificacion 
+
+Construir la cadena de caracteres permitidos:
+
+La variable caracteres se inicializa como una cadena vacía.
+Dependiendo de los booleanos pasados a la función, se añaden letras, números y símbolos a esta cadena de caracteres permitidos.
+Verificación:
+
+Si después de revisar los booleanos, caracteres sigue siendo una cadena vacía, se lanza un error porque el usuario no eligió ningún tipo de caracteres para su contraseña.
+
+Terminesmos :
+Generación de la contraseña:
+
+Se utiliza una comprensión de lista para seleccionar un carácter al azar de la cadena de caracteres permitidos por cada posición en la longitud deseada de la contraseña y se unen todos esos caracteres en una cadena final.
+Uso de la función:
+
+Se establecen las variables que definen la longitud y los tipos de caracteres a incluir en la contraseña.
+Se llama a la función generar_contrasena con los parámetros definidos y se guarda el resultado en contrasena_segura.
+
+Impresión del resultado:
+
+Finalmente, se imprime la contraseña generada.
+
+
+ahora para revisar vamos a la terminal y ejecutamos el script 
+
+el error de arriba es porque use punto y coma por costumbre y eran dos puntos xD
+
+no olviden guardar
+vamos al directorio donde esta el script
+y ejecutamos
+
+comparto coddigo corregido en los comentarios :D
